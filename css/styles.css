@@ -116,6 +116,12 @@ ul {
     font-style: none;
 }
 
+.main {
+    background-color: var(--blue);
+}
+
 .main-left {
     margin: auto;
+    padding: 0px 36px;
+    color: white;
 }
