@@ -79,12 +79,8 @@ li {
     display: inline;
 }
 
-.nav-item {
+.nav-link {
     color: var(--blue);
-}
-
-.active {
-    border-bottom: 1px solid var(--yellow);
 }
 
 .button-primary {
