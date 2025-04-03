@@ -36,7 +36,7 @@
     text-decoration: none;
     color: var(--blue);
     background-color: var(--white);
-    border-color: var(--blue);
+    border: 2px solid var(--blue);
 }
 
 .button-outline-secondary {
@@ -46,5 +46,5 @@
     text-decoration: none;
     color: var(--yellow);
     background-color: var(--white);
-    border-color: var(--yellow);
+    border: 2px solid var(--yellow);
 }
