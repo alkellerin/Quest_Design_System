@@ -83,6 +83,10 @@ li {
     color: var(--blue);
 }
 
+.active {
+    font-weight: bold;
+}
+
 .button-primary {
     border-radius: 8px;
     background-color: var(--blue);
