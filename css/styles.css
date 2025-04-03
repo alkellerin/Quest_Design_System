@@ -30,38 +30,41 @@ h1, h2, h3, h4, p, label, a, .link {
 }
 
 h1 {
-    font-weight: bold;
     font-size: 60px;
+    font-weight: 700;
 }
 
 h2 {
-    font-weight: bold;
     font-size: 48px;
+    font-weight: 700;
 }
 
 h3 {
-    font-weight: bold;
     font-size: 32px;
+    font-weight: 700;
     margin: 0px;
 }
 
 h4 {
-    font-weight: medium;
     font-size: 24px;
+    font-weight: 500;
 }
 
 a {
     font-size: 16px;
+    font-weight: 400;
 }
 
 p {
     /* font-weight: medium; */
     font-size: 16px;
+    font-weight: 400;
 }
 
 label {
     /* font-weight: bold; */
     font-size: 12px;
+    font-weight: 300;
 }
 
 .link {
@@ -76,7 +79,7 @@ ul {
     padding: 10px;
 }
 
-.navbar {
+nav {
     display: inline;
 }
 
