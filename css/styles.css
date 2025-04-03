@@ -27,6 +27,7 @@ body {
 
 h1, h2, h3, h4, p, label, a, .link {
     font-family: "greycliff-cf";
+    margin: 0px;
 }
 
 h1 {
