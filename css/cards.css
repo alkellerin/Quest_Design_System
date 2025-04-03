@@ -1,0 +1,18 @@
+.card {
+    width: 312px;
+    height: 328px;
+}
+
+.thumbnail {
+    background-color: var(--blue);
+    width: 312px;
+    height: 208px;
+}
+
+.cardInfo {
+   padding: 20px;
+}
+
+.link {
+    padding: 40px 20px 0px 20px;
+}

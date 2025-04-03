@@ -1,0 +1,78 @@
+body {
+    background-color: #fdfdfd;
+    font-family: "greycliff-cf";
+}
+
+:root {
+    --blue: #1c2674;
+    --light-blue: #26339C;
+    --lighter-blue: #3041C5;
+    --lightest-blue: #7C87DF;
+    --darker-blue: #12184A;
+    --darkest-blue: #080B21;
+
+    --yellow: #fab32f;
+    --light-yellow: #FBC560;
+    --lighter-yellow: #FCD791;
+    --lightest-yellow: #FEE9C3;
+    --darker-yellow: #EF9D06;
+    --darkest-yellow: #BD7D05;
+
+    --white: #F2F2F2;
+    --lightgray: #BFBFBF;
+    --gray: #8C8C8C;
+    --darkgray: #595959;
+    --black: #262626; 
+}
+
+h1, h2, h3, h4, p, label, a, .link {
+    font-family: "greycliff-cf";
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+h4 {
+    font-weight: medium;
+    font-size: 24px;
+}
+
+a {
+    font-size: 16px;
+}
+
+p {
+    /* font-weight: medium; */
+    font-size: 16px;
+}
+
+label {
+    /* font-weight: bold; */
+    font-size: 12px;
+}
+
+.link {
+    font-style: italic;
+    font-size: 14px;
+    color: var(--blue);
+}
+
+.button-primary {
+    border-radius: 8px;
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 16px;
+    font-style: none;
+}
