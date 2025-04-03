@@ -1,0 +1,37 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+}
+
+.grid-item {
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+.button-primary {
+    height: 40px;
+    padding: 0px 16px;
+    font-size: 16px;
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.button-secondary {
+    height: 40px;
+    padding: 0px 16px;
+    font-size: 16px;
+    color: var(--blue);
+    background-color: var(--yellow);
+}
+
+.button-outline-primary {
+
+}
+
+.button-outline-secondary {
+
+}
