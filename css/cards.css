@@ -1,12 +1,12 @@
 .cardArticle {
     width: 312px;
-    height: 328px;
     border: 2px solid var(--lightgray);
     border-radius: 8px;
 }
 
 .thumbnail {
     background-color: var(--blue);
+    border-radius: 8px 8px 0px 0px;
     width: 312px;
     height: 224px;
 }
