@@ -1,6 +1,6 @@
 .cardArticle {
     width: 312px;
-    border: 2px solid var(--lightergray);
+    border: 2px solid var(--lighter-gray);
     border-radius: 8px;
 }
 

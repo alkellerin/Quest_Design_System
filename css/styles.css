@@ -19,11 +19,26 @@ body {
     --darkest-yellow: #BD7D05;
 
     --white: #FFFFFF;
-    --lightergray: #F2F2F2;
-    --lightgray: #BFBFBF;
+    --lighter-gray: #F2F2F2;
+    --light-gray: #BFBFBF;
     --gray: #8C8C8C;
-    --darkgray: #595959;
+    --dark-gray: #595959;
     --black: #262626; 
+
+    --green: #398434;
+    --darker-green: #295F25;
+    --darkest-green: #193B17;
+    --light-green: #49A842;
+    --lightest-green: #64C05E;
+    --lightest-green: #CEEBCC;
+
+    --red: #BF2229;
+    --darker-red: #931A20;
+    --darkest-red: #681216;
+    --light-red: #DC383F;
+    --lighter-red: #E36369;
+    --lightest-red: #F3BABC;
+
 }
 
 h1, h2, h3, h4, p, label, a, .link {
