@@ -48,3 +48,23 @@
     background-color: var(--white);
     border: 2px solid var(--yellow);
 }
+
+.button-outline-light {
+    padding: 12px 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--blue);
+    background-color: var(--yellow);
+    border: 2px solid var(--blue);
+}
+
+.button-outline-dark {
+    padding: 12px 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--yellow);
+    background-color: var(--blue);
+    border: 2px solid var(--yellow);
+}
