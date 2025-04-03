@@ -16,6 +16,8 @@
     height: 40px;
     padding: 0px 16px;
     font-size: 16px;
+    border-radius: 8px;
+    text-decoration: none;
     color: var(--white);
     background-color: var(--blue);
 }
@@ -24,6 +26,8 @@
     height: 40px;
     padding: 0px 16px;
     font-size: 16px;
+    border-radius: 8px;
+    text-decoration: none;
     color: var(--blue);
     background-color: var(--yellow);
 }
