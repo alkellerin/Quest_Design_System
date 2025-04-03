@@ -4,6 +4,10 @@
     border-radius: 8px;
 }
 
+.cardArticle:hover {
+    filter: drop-shadow(4px 8px 10px #8C8C8C);
+}
+
 .thumbnail {
     background-color: var(--blue);
     border-radius: 8px 8px 0px 0px;

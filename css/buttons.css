@@ -22,6 +22,7 @@
 
 .button-primary:hover {
     background-color: var(--darker-blue);
+    font-weight: bold;
 }
 
 .button-primary:active {
