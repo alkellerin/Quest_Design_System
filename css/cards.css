@@ -2,18 +2,19 @@
     width: 312px;
     height: 328px;
     border: 2px solid var(--lightgray);
+    border-radius: 8px;
 }
 
 .thumbnail {
     background-color: var(--blue);
     width: 312px;
-    height: 208px;
+    height: 224px;
 }
 
 .cardInfo {
-   padding: 4px;
+   padding: 16px;
 }
 
 .link {
-    padding: 20px 4px 10px 4px;
+    padding: 16px;
 }
