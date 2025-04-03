@@ -9,7 +9,7 @@ h1, p {
 } */
 
 .emblem {
-    width: 50%;
+    width: 40%;
     padding: 32px 0px 0px 20px;
     right: 10px;
 }
@@ -19,12 +19,10 @@ h1, p {
     max-width: none;
     padding: 16px;
 }
-/* 
-.left {
-    margin: auto;
-    color: var(--white);
-    padding: 0px 40px 0px 32px;
-} */
+
+.right {
+    float: right;
+}
 
 .row {
     display: flex;
