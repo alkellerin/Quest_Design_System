@@ -1,6 +1,7 @@
 .cardArticle {
     width: 312px;
     height: 328px;
+    border: 2px solid var(--lightgray);
 }
 
 .thumbnail {
