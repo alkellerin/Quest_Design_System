@@ -20,6 +20,10 @@ h1, p {
     padding: 16px;
 }
 
+.info {
+    margin: auto;
+}
+
 .right {
     float: right;
 }
