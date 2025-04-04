@@ -20,22 +20,18 @@
     background-color: var(--blue);
 }
 
-.button-primary:hover {
-    background-color: var(--darker-blue);
-    font-weight: bold;
-}
+    .button-primary:hover {
+        background-color: var(--darker-blue);
+        font-weight: bold;
+    }
 
-.button-primary:active {
-    font-weight: bold;
-}
+    .button-primary:active {
+        font-weight: bold;
+    }
 
-.button-primary:checked {
-    border: 2px solid var(--lightest-blue);
-}
-
-.button-primary:disabled {
-    
-}
+    .button-primary:disabled {
+        background-color: var(--lightest-blue);
+    }
 
 .button-secondary {
     padding: 12px 16px;
@@ -45,6 +41,19 @@
     color: var(--blue);
     background-color: var(--yellow);
 }
+
+    .button-secondary:hover {
+        background-color: var(--darker-yellow);
+        font-weight: bold;
+    }
+
+    .button-secondary:active {
+        font-weight: bold;
+    }
+
+    .button-secondary:disabled {
+        background-color: var(--lightest-yellow);
+    }
 
 .button-outline-primary {
     padding: 12px 16px;
@@ -56,6 +65,20 @@
     border: 2px solid var(--blue);
 }
 
+    .button-outline-primary:hover {
+        background-color: var(--blue);
+        font-weight: bold;
+    }
+
+    .button-outline-primary:active {
+        font-weight: bold;
+    }
+
+    .button-outline-primary:disabled {
+        color: var(--lightest-blue);
+        border: 2px solid var(--lightest-blue);
+    }
+
 .button-outline-secondary {
     padding: 12px 16px;
     font-size: 16px;
@@ -65,6 +88,20 @@
     background-color: var(--white);
     border: 2px solid var(--yellow);
 }
+
+    .button-outline-secondary:hover {
+        background-color: var(--darker-yellow);
+        font-weight: bold;
+    }
+
+    .button-outline-secondary:active {
+        font-weight: bold;
+    }
+
+    .button-outline-secondary:disabled {
+        color: var(--lightest-blue);
+        border: 2px solid var(--lightest-blue);
+    }
 
 .button-outline-light {
     padding: 12px 16px;
@@ -76,6 +113,19 @@
     border: 2px solid var(--blue);
 }
 
+    .button-outline-light:hover {
+        background-color: var(--darker-blue);
+        font-weight: bold;
+    }
+
+    .button-outline-light:active {
+        font-weight: bold;
+    }
+
+    .button-outline-light:disabled {
+        background-color: var(--lightest-blue);
+    }
+
 .button-outline-dark {
     padding: 12px 16px;
     font-size: 16px;
@@ -85,3 +135,16 @@
     background-color: var(--blue);
     border: 2px solid var(--yellow);
 }
+
+    .button-outline-dark:hover {
+        background-color: var(--darker-blue);
+        font-weight: bold;
+    }
+
+    .button-outline-dark:active {
+        font-weight: bold;
+    }
+
+    .button-outline-dark:disabled {
+        background-color: var(--lightest-blue);
+    }

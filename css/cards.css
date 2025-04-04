@@ -68,3 +68,30 @@
     background-color: #ecf0f1;
 }
   
+.choices {
+    display: inline;
+}
+
+.membersCard {
+    width: 312px;
+    border: 2px solid var(--light-gray);
+    border-radius: 8px;
+    color: var(--blue);
+    background-color: var(--yellow);
+}
+
+.membersCard:hover {
+    filter: drop-shadow(4px 8px 10px #8C8C8C);
+}
+
+.employersCard {
+    width: 312px;
+    border: 2px solid var(--light-gray);
+    border-radius: 8px;
+    color: white;
+    background-color: #398434;
+}
+
+.employersCard:hover {
+    filter: drop-shadow(4px 8px 10px #8C8C8C);
+}
