@@ -68,6 +68,7 @@
     .button-outline-primary:hover {
         background-color: var(--blue);
         font-weight: bold;
+        color: var(--white);
     }
 
     .button-outline-primary:active {
@@ -92,6 +93,7 @@
     .button-outline-secondary:hover {
         background-color: var(--darker-yellow);
         font-weight: bold;
+        color: var(--white);
     }
 
     .button-outline-secondary:active {
