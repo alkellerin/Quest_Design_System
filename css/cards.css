@@ -112,12 +112,24 @@
 
 .file {
     width: 624px;
-    height: 200px;
+    height: 192px;
     margin: auto;
-    padding: 16px;
+    padding: 8px 24px;
+    border: 2px solid var(--light-gray);
+    border-radius: 8px;
+    background-color: white;
 }
 
 .pdf-thumbnail {
     width: 312px;
     height: 160px;
+    margin: auto;
+    border-radius: 8px;
+    background-color: var(--blue);
+}
+
+.pdf-info {
+    margin: auto;
+    padding-left: 16px;
+    
 }
