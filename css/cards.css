@@ -95,3 +95,29 @@
 .employersCard:hover {
     filter: drop-shadow(4px 8px 10px #8C8C8C);
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.file {
+    width: 624px;
+    height: 200px;
+    margin: auto;
+    padding: 16px;
+}
+
+.pdf-thumbnail {
+    width: 312px;
+    height: 160px;
+}

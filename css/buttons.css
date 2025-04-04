@@ -75,7 +75,7 @@
     }
 
     .button-outline-primary:disabled {
-        color: var(--lightest-blue);
+        color: var(--white);
         border: 2px solid var(--lightest-blue);
     }
 
