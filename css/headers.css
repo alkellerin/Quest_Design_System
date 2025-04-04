@@ -50,6 +50,7 @@ h1, p {
 
 .tab {
     text-decoration: none;
+    padding: 16px;
 }
 
 .tab:hover {
