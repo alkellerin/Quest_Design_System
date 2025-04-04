@@ -42,3 +42,16 @@ h1, p {
     flex-basis: 100%;
     flex: 1;
 }
+
+.tabs {
+    background-color: var(--yellow);
+    padding: 24px;
+}
+
+.tab {
+    text-decoration: none;
+}
+
+.tab:hover {
+    font-weight: bold;
+}
