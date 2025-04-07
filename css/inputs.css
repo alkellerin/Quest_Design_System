@@ -12,6 +12,8 @@
 
 input {
     margin-top: 0.5rem;
+    width: 624px;
+
 }
   
 input::placeholder {
@@ -19,6 +21,7 @@ input::placeholder {
 }
 
 .button-primary {
+    font-family: "greycliff-cf";
     padding: 12px 16px;
     font-size: 16px;
     border-radius: 8px;
