@@ -69,17 +69,25 @@ h1, p {
 
 .top-nav {
     padding: 1.563rem 2.188rem;
+    display: flex; 
+    align-items: center;
 }
 
 .logo {
+    display: flex;
     padding-right: 1.25rem;
     height: 3.125rem;
 }
 
 .nav-links {
-    space
+    display: flex; 
+    gap: 4.063rem;
 }
 
 h6 {
     color: var(--blue);
+}
+
+h6:hover {
+    font-weight: 700;
 }
