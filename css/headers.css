@@ -66,3 +66,20 @@ h1, p {
 .tab:hover {
     font-weight: bold;
 }
+
+.top-nav {
+    padding: 1.563rem 2.188rem;
+}
+
+.logo {
+    padding-right: 1.25rem;
+    height: 3.125rem;
+}
+
+.nav-links {
+    space
+}
+
+h6 {
+    color: var(--blue);
+}
