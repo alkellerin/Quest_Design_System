@@ -90,6 +90,15 @@ label {
     color: var(--blue);
 }
 
+input {
+    margin-top: 0.5rem;
+}
+  
+input::placeholder {
+    color: var(--light-gray);
+}
+
+
 ul {
     list-style-type: none;
     margin: 10px;

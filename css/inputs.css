@@ -10,3 +10,10 @@
     background-color: white;
 }
 
+input {
+    margin-top: 0.5rem;
+}
+  
+input::placeholder {
+    color: var(--light-gray);
+}
