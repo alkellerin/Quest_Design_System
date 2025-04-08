@@ -41,7 +41,7 @@ body {
 
 }
 
-h1, h2, h3, h4, p, label, a, .link {
+h1, h2, h3, h4, h5, p, label, a, .link {
     font-family: "greycliff-cf";
     margin: 0px;
 }
@@ -118,17 +118,6 @@ ul {
     padding: 10px;
 }
 
-.navbar {
-    display: inline;
-}
-
-.nav-link {
-    color: var(--blue);
-}
-
-.active {
-    font-weight: bold;
-}
 
 .button-primary {
     border-radius: 8px;
