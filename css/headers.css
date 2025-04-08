@@ -81,44 +81,44 @@ h1, p {
     
 }
 
-.nav-links {
+.navbar-links {
     margin-left: 10.125rem;
     margin-right: 10.125rem;
     display: flex; 
     gap: 1rem;
 }
 
-.nav-item {
+.navbar-item {
     max-width: 8.938rem;
 }
 
-.nav-buttons {
+.navbar-buttons {
     display: flex;
     gap: 1.25rem;
 }
 
-.button-primary {
+.button-primary-nav {
     padding: 12px 16px;
     font-size: 16px;
     border-radius: 8px;
     text-decoration: none;
     color: var(--white);
     background-color: var(--blue);
+    align-items: center;
     min-width: 12.5rem;
     max-width: 14.063rem;
-    align-items: center;
 }
 
-    .button-primary:hover {
+    .button-primary-nav:hover {
         background-color: var(--darker-blue);
         font-weight: bold;
     }
 
-    .button-primary:active {
+    .button-primary-nav:active {
         font-weight: bold;
     }
 
-    .button-primary:disabled {
+    .button-primary-nav:disabled {
         background-color: var(--lightest-blue);
     }
 
