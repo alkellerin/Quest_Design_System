@@ -69,7 +69,8 @@
 }
   
 .choices {
-    display: inline;
+    display: flex;
+    gap: 24px;
 }
 
 .membersCard {
