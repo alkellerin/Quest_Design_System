@@ -75,9 +75,13 @@ h1, p {
 
 .nav-logo {
     display: flex;
-    padding-right: 1.25rem;
+    gap: 1.25rem;
     height: 3.125rem;
     align-items: center;
+}
+
+.nav-icon {
+    height: 3.125rem;
 }
 
 .navbar-links {
