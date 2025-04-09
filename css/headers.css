@@ -72,6 +72,7 @@ h1, p {
     padding: 1.563rem 2.188rem;
     display: flex; 
     align-items: center;
+    justify-content: space-between;
 }
 
 .nav-logo {
