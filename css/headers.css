@@ -72,6 +72,7 @@ h1, p {
     padding: 1.563rem 2.188rem;
     display: flex; 
     align-items: center;
+    margin: auto;
     justify-content: space-between;
 }
 
@@ -100,6 +101,7 @@ h1, p {
 .navbar-buttons {
     display: flex;
     gap: 1.25rem;
+    align-items: center;
 }
 
 .button-primary-nav {
@@ -134,4 +136,8 @@ h6 {
 
 h6:hover {
     font-weight: 700;
+}
+
+.ph-magnifying-glass {
+    font-size: 24px;
 }
