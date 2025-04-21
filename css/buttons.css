@@ -22,6 +22,7 @@
 
     .button-primary:hover {
         background-color: var(--darker-blue);
+        color: var(--white);
         font-weight: bold;
     }
 
@@ -44,6 +45,7 @@
 
     .button-secondary:hover {
         background-color: var(--darker-yellow);
+        color: var(--blue);
         font-weight: bold;
     }
 
@@ -117,6 +119,7 @@
 
     .button-outline-light:hover {
         background-color: var(--darker-yellow);
+        color: var(--blue);
         font-weight: bold;
     }
 
@@ -141,6 +144,7 @@
 
     .button-outline-dark:hover {
         background-color: var(--darker-blue);
+        color: var(--yellow);
         font-weight: bold;
     }
 
