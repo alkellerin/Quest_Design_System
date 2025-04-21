@@ -39,6 +39,16 @@ body {
     --lighter-red: #E36369;
     --lightest-red: #F3BABC;
 
+    --heading-1: ;
+    --heading-2: ;
+    --heading-3: ;
+    --subtitle: ;
+    --body-large: ;
+    --body-regular: ;
+    --label: ;
+    --link: ;
+
+
 }
 
 h1, h2, h3, h4, h5, p, label, a, .link {

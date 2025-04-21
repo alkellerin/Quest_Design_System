@@ -12,12 +12,24 @@ faqQuestions.forEach((question) => {
 
     question.classList.toggle("active");
 
-    const answer = question.nextElementSibling;
-
-    if (answer.style.maxHeight) {
-      answer.style.maxHeight = null;
-    } else {
-      answer.style.maxHeight = answer.scrollHeight + "px";
-    }
+    
+      // Get the caret element
+      const caret = question.querySelector(".ph-caret-down");
+      
+      // Toggle the answer visibility
+      const answer = question.nextElementSibling;
+      if (answer.style.maxHeight) {
+        answer.style.maxHeight = null;
+        // Rotate caret back to original position
+        if (caret) {
+          caret.style.transform = "rotate(0deg)";
+        }
+      } else {
+        answer.style.maxHeight = answer.scrollHeight + "px";
+        // Rotate caret 180 degrees
+        if (caret) {
+          caret.style.transform = "rotate(180deg)";
+        }
+      }
   });
 });
