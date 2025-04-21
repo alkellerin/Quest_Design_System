@@ -50,7 +50,7 @@ label, h1, p {
     flex: 1; 
 }
 
-.tabs {
+.tab-bar {
     background-color: var(--yellow);
     padding: 24px;
 }
@@ -58,10 +58,12 @@ label, h1, p {
 .tab {
     text-decoration: none;
     padding: 16px;
+    color: var(--blue);
 }
 
 .tab:hover {
     font-weight: bold;
+    color: var(--blue);
 }
 
 .top-nav {

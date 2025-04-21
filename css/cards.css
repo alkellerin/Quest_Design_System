@@ -9,10 +9,9 @@
     filter: drop-shadow(4px 8px 10px #8C8C8C);
 }
 
-.thumbnail {
+.thumbnail_img {
     background-color: var(--blue);
     border-radius: 8px 8px 0px 0px;
-    width: 312px;
     height: 224px;
     border: none;
 }
@@ -133,7 +132,7 @@
     flex: 1;
 }
 
-.file {
+.file.row {
     width: 624px;
     height: 192px;
     margin: auto;
