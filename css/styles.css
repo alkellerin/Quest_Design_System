@@ -1,6 +1,10 @@
+* {
+    font-family: "greycliff-cf","Lexend Deca", sans-serif !important;
+}
+
+
 body {
     background-color: #fdfdfd;
-    font-family: "greycliff-cf";
 }
 
 :root {
@@ -52,7 +56,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, p, label, a, .link {
-    font-family: "greycliff-cf";
     margin: 0px;
 }
 
