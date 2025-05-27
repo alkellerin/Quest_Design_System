@@ -42,20 +42,86 @@ body {
     --light-red: #DC383F;
     --lighter-red: #E36369;
     --lightest-red: #F3BABC;
-
-    --heading-1: ;
-    --heading-2: ;
-    --heading-3: ;
-    --subtitle: ;
-    --body-large: ;
-    --body-regular: ;
-    --label: ;
-    --link: ;
-
-
 }
 
-h1, h2, h3, h4, h5, p, label, a, .link {
+.extra-small {
+    font-family: "greycliff-cf", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+}
+
+.label, .link {
+    font-family: "greycliff-cf", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.body-base, .button-text {
+    font-family: "greycliff-cf", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.body-scale-1 {
+    font-family: "greycliff-cf", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.body-scale-2 {
+    font-family: "greycliff-cf", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.subtitle {
+    font-family: "greycliff-cf", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.subtitle-scale-1 {
+    font-family: "greycliff-cf", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+}
+
+.subtitle-scale-2 {
+    font-family: "greycliff-cf", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+}
+
+.heading-3 {
+    font-family: "greycliff-cf", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.heading-2 {
+    font-family: "greycliff-cf", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 48px;
+}
+
+.heading-1 {
+    font-family: "greycliff-cf", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 56px;
+}
+
+/* h1, h2, h3, h4, h5, p, label, a, .link {
     margin: 0px;
 }
 
@@ -128,7 +194,7 @@ input::placeholder {
     font-size: 16px;
     font-weight: 400;
     color: var(--light-gray);
-}
+} */
 
 ul {
     list-style-type: none;
