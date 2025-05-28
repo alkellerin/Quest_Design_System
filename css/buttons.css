@@ -11,6 +11,8 @@
     height: 100px;
 }
 
+
+
 /* MED/DEFAULT BUTTONS */
 .button-primary-med{
     padding: 12px 16px;
@@ -123,7 +125,7 @@
 }
 
     .button-link-med:hover {
-        font-weight: bold;
+        font-weight: 700;
     }
 
     .button-link-med:disabled {
@@ -145,11 +147,11 @@
     .button-primary-sm:hover {
         background-color: var(--darker-blue);
         color: var(--white);
-        font-weight: bold;
+        font-weight: 700;
     }
 
     .button-primary-sm:active {
-        font-weight: bold;
+        font-weight: 700;
     }
 
     .button-primary-sm:disabled {
@@ -198,7 +200,7 @@
     }
 
     .button-outline-primary-sm:active {
-        font-weight: bold;
+        font-weight: 700;
     }
 
     .button-outline-primary-sm:disabled {
@@ -224,7 +226,7 @@
     }
 
     .button-outline-secondary-sm:active {
-        font-weight: bold;
+        font-weight: 700;
     }
 
     .button-outline-secondary-sm:disabled {
@@ -243,7 +245,7 @@
 }
 
     .button-link-sm:hover {
-        font-weight: bold;
+        font-weight: 700;
     }
 
     .button-link-sm:disabled {
@@ -265,11 +267,11 @@
     .button-primary-lg:hover {
         background-color: var(--darker-blue);
         color: var(--white);
-        font-weight: bold;
+        font-weight: 700;
     }
 
     .button-primary-med:active {
-        font-weight: bold;
+        font-weight: 700;
     }
 
     .button-primary-med:disabled {
@@ -289,11 +291,11 @@
     .button-secondary-lg:hover {
         background-color: var(--darker-yellow);
         color: var(--blue);
-        font-weight: bold;
+        font-weight: 700;
     }
 
     .button-secondary-lg:active {
-        font-weight: bold;
+        font-weight: 700;
     }
 
     .button-secondary-lg:disabled {
@@ -313,12 +315,12 @@
 
     .button-outline-primary-lg:hover {
         background-color: var(--blue);
-        font-weight: bold;
+        font-weight: 700;
         color: var(--white);
     }
 
     .button-outline-primary-lg:active {
-        font-weight: bold;
+        font-weight: 700;
     }
 
     .button-outline-primary-lg:disabled {
@@ -363,7 +365,7 @@
 }
 
     .button-link-lg:hover {
-        font-weight: bold;
+        font-weight: 700;
     }
 
     .button-link-lg:disabled {
