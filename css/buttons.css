@@ -15,8 +15,10 @@ th {
     padding: 24px;
 }
 
-table{
+
+.button-table{
     text-align: center;
+    width: 1074px;
 }
 
 /* MED/DEFAULT BUTTONS */
