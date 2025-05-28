@@ -98,7 +98,7 @@
   }
   
   .content-container {
-    max-width: 1024px;
+    width: 100%;
     background-color: #F4F5F9;
   }
   
