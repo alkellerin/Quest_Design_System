@@ -64,7 +64,8 @@
   .nav-item.sub.active {
     background-color: #e5e7eb;
     color: #1f2937;
-    border-left-color: #4f46e5;
+    border-radius: 0px 8px 8px 0px;
+    border-left-color: #1C2674;
     font-weight: bold;
   }
   
