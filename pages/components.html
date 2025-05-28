@@ -15,51 +15,64 @@
     </head>
 
     <body>
-        <!-- <include src="../pages/nav.html"></include> -->
+      <include src="../pages/nav.html"></include>
 
         
-        <div class="sidebar">
-          <div class="sidebar-header">
-              <p class="subtitle-scale-2">Table of Contents</p>
-          </div>
-          <nav class="nav-menu">
-              <button class="nav-item regular active" data-tab="survivor-benefits"><p class="body-scale-1">Survivor Benefits</p></button>
-              <button class="nav-item regular" data-tab="report-death"><p class="body-scale-1">Report a Death</p></button>
-              <button class="nav-item sub" data-tab="report-death-sub1"><p class="body-scale-1">Report a Death</p></button>
-              <button class="nav-item sub" data-tab="report-death-sub2"><p class="body-scale-1">Report a Death</p></button>
-              <button class="nav-item regular" data-tab="new-hire"><p class="body-scale-1">New Hire</p></button>
-              <button class="nav-item regular" data-tab="mid-career"><p class="body-scale-1">Mid Career</p></button>
-              <button class="nav-item regular" data-tab="early-retirement"><p class="body-scale-1">Early Retirement</p></button>
+      <div class="sidebar">
+        <div class="sidebar-header">
+          <p class="subtitle-scale-2">Table of Contents</p>
+        </div>
+        <nav class="nav-menu">
+          <button class="nav-item regular active" data-tab="components-buttons"><p class="body-scale-1">Buttons</p></button>
+              <button class="nav-item regular" data-tab="components-cards"><p class="body-scale-1">Cards</p></button>
+              <!-- <button class="nav-item sub" data-tab="report-death-sub1"><p class="body-scale-1">Report a Death</p></button>
+              <button class="nav-item sub" data-tab="report-death-sub2"><p class="body-scale-1">Report a Death</p></button> -->
+              <button class="nav-item regular" data-tab="components-headers"><p class="body-scale-1">Headers</p></button>
+              <button class="nav-item regular" data-tab="components-feedback"><p class="body-scale-1">Feedback</p></button>
+              <button class="nav-item regular" data-tab="components-inputs"><p class="body-scale-1">Inputs</p></button>
+              <button class="nav-item regular" data-tab="components-icons"><p class="body-scale-1">Iconography</p></button>
           </nav>
       </div>
   
       <div class="main-content">
           <div class="content-container">
-              <!-- Survivor Benefits Content -->
-              <div id="survivor-benefits" class="content-section">
-                  <h1 class="main-title">Tab 1</h1>
-              </div>
-  
-              <!-- Report a Death Content -->
-              <div id="report-death" class="content-section hidden">
-                  <h1 class="main-title">Tab 2</h1>
-              </div>
-  
-              <!-- New Hire Content -->
-              <div id="new-hire" class="content-section hidden">
-                  <h1 class="main-title">Tab 3</h1>
-              </div>
-  
-              <!-- Mid Career Content -->
-              <div id="mid-career" class="content-section hidden">
-                  <h1 class="main-title">Tab 4</h1>
-              </div>
-  
-              <!-- Early Retirement Content -->
-              <div id="early-retirement" class="content-section hidden">
-                  <h1 class="main-title">Tab 5</h1>
-              </div>
+            <!-- Buttons Content -->
+            <div id="components-buttons" class="content-section">
+                <h1 class="main-title">Buttons</h1>
+                <include src="../pages/buttons.html"></include>
+            </div>
+
+            <!-- Cards Content -->
+            <div id="components-cards" class="content-section hidden">
+              <h1 class="main-title">Cards</h1>
+              <include src="../pages/cards.html"></include>
+            </div>
+
+            <!-- Headers Content -->
+            <div id="components-headers" class="content-section hidden">
+              <h1 class="main-title">Headers</h1>
+              <!-- <include src="../pages/headers.html"></include> -->
+            </div>
+
+            <!-- Feedback Content -->
+            <div id="components-feedback" class="content-section hidden">
+              <h1 class="main-title">Feedback</h1>
+              <include src="../pages/feedback.html"></include>
+            </div>
+
+            <!-- Inputs Content -->
+            <div id="components-inputs" class="content-section hidden">
+              <h1 class="main-title">Inputs</h1>
+              <include src="../pages/inputs.html"></include>
+            </div>
+
+            <!-- Icons Content -->
+            <div id="components-icons" class="content-section hidden">
+              <h1 class="main-title">Iconography</h1>
+              <include src="../pages/icons.html"></include>
+            </div>
           </div>
+     
       </div>
 
       <script src="../js/scripts.js" async defer></script>

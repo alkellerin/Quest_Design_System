@@ -1,0 +1,130 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://use.typekit.net/hbi2boz.css">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/styleguide.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"/>
+        <script src="https://unpkg.com/htmlincludejs"></script>
+    </head>
+
+    <body>
+        <include src="../pages/nav.html"></include>
+
+        
+      <div class="sidebar">
+        <div class="sidebar-header">
+          <p class="subtitle-scale-2">Table of Contents</p>
+        </div>
+        <nav class="nav-menu">
+            <button class="nav-item regular active" data-tab="style-color"><p class="body-scale-1">Color</p></button>
+            <button class="nav-item regular" data-tab="style-typography"><p class="body-scale-1">Typography</p></button>
+        </nav>
+      </div>
+  
+      <div class="main-content">
+          <div class="content-container">
+            <!-- Buttons Content -->
+            <div id="style-color" class="content-section">
+                <h1 class="main-title">Color</h1>
+                <!-- <include src="../pages/color.html"></include> -->
+            </div>
+
+            <!-- Cards Content -->
+            <div id="style-typography" class="content-section hidden">
+              <h1 class="main-title">Typography</h1>
+              <!-- <include src="../pages/typography.html"></include> -->
+            </div>
+          </div>
+     
+      </div>
+
+      <script>// SIDE NAV
+        var navItems = document.querySelectorAll('.nav-item');
+        var contentSections = document.querySelectorAll('.content-section');
+        var dropdownItems = document.querySelectorAll('.nav-item[data-has-dropdown]');
+        
+        function showContent(tabId) {
+            // Hide all content sections
+            for (var i = 0; i < contentSections.length; i++) {
+                contentSections[i].classList.add('hidden');
+            }
+        
+            // Show selected content section
+            var targetSection = document.getElementById(tabId);
+            if (targetSection) {
+                targetSection.classList.remove('hidden');
+            }
+        
+            // Update active states
+            for (var j = 0; j < navItems.length; j++) {
+                navItems[j].classList.remove('active');
+            }
+        
+            // Add active class to clicked item
+            var activeItem = document.querySelector('[data-tab="' + tabId + '"]');
+            if (activeItem) {
+                activeItem.classList.add('active');
+            }
+        }
+        
+        function toggleDropdown(parentTab) {
+            // Find all sub items related to this parent
+            var subItems = document.querySelectorAll('.nav-item.sub');
+            var dropdownIcon = document.querySelector('[data-tab="' + parentTab + '"] .dropdown-icon');
+            var isExpanded = false;
+        
+            // Check if any sub items are currently visible
+            for (var i = 0; i < subItems.length; i++) {
+                if (subItems[i].classList.contains('show')) {
+                    isExpanded = true;
+                    break;
+                }
+            }
+        
+            // Toggle sub items visibility
+            for (var j = 0; j < subItems.length; j++) {
+                if (isExpanded) {
+                    subItems[j].classList.remove('show');
+                } else {
+                    subItems[j].classList.add('show');
+                }
+            }
+        
+            // Toggle dropdown icon
+            if (dropdownIcon) {
+                if (isExpanded) {
+                    dropdownIcon.classList.remove('expanded');
+                } else {
+                    dropdownIcon.classList.add('expanded');
+                }
+            }
+        }
+        
+        // Add click event listeners to navigation items
+        for (var k = 0; k < navItems.length; k++) {
+            navItems[k].addEventListener('click', function() {
+                var tabId = this.getAttribute('data-tab');
+                var hasDropdown = this.getAttribute('data-has-dropdown');
+                
+                if (hasDropdown) {
+                    // If it's a dropdown item, toggle the dropdown and show content
+                    toggleDropdown(tabId);
+                    showContent(tabId);
+                } else {
+                    // Regular navigation
+                    showContent(tabId);
+                }
+            });
+        }
+        
+        // Initialize with first tab active
+        showContent('style-color');</script>
+    </body>
+</html>

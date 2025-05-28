@@ -114,4 +114,4 @@ for (var k = 0; k < navItems.length; k++) {
 }
 
 // Initialize with first tab active
-showContent('survivor-benefits');
+showContent('components-buttons');
