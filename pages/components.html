@@ -11,62 +11,56 @@
         <link rel="stylesheet" href="../css/icons.css">
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"/>
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"/>
-        <script src="https://unpkg.com/htmlincludejs"></script>
-
-
-        <!-- Compressed CSS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.9.0/css/foundation-flex.min.css " crossorigin="anonymous">
-
-        <!-- Compressed JavaScript -->
-        <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/js/foundation.min.js" crossorigin="anonymous"></script> 
+        
     </head>
 
     <body>
         <include src="../pages/nav.html"></include>
 
         
-        <div class="grid-container">
-            <div class="row">
-              <div class="columns medium-3">
-                <ul class="vertical tabs" data-tabs id="example-tabs">
-                  <li class="tabs-title is-active"><a href="#panel1v" aria-selected="true">Tab 1</a></li>
-                  <li class="tabs-title"><a href="#panel2v">Tab 2</a></li>
-                  <li class="tabs-title"><a href="#panel3v">Tab 3</a></li>
-                  <li class="tabs-title"><a href="#panel4v">Tab 4</a></li>
-                  <li class="tabs-title"><a href="#panel5v">Tab 5</a></li>
-                  <li class="tabs-title"><a href="#panel6v">Tab 6</a></li>
-                </ul>
+        <div class="sidebar">
+          <div class="sidebar-header">
+              <p class="subtitle-scale-2">Table of Contents</p>
+          </div>
+          <nav class="nav-menu">
+              <button class="nav-item regular active" data-tab="survivor-benefits"><p class="body-scale-1">Survivor Benefits</p></button>
+              <button class="nav-item regular" data-tab="report-death"><p class="body-scale-1">Report a Death</p></button>
+              <button class="nav-item sub" data-tab="report-death-sub1"><p class="body-scale-1">Report a Death</p></button>
+              <button class="nav-item sub" data-tab="report-death-sub2"><p class="body-scale-1">Report a Death</p></button>
+              <button class="nav-item regular" data-tab="new-hire"><p class="body-scale-1">New Hire</p></button>
+              <button class="nav-item regular" data-tab="mid-career"><p class="body-scale-1">Mid Career</p></button>
+              <button class="nav-item regular" data-tab="early-retirement"><p class="body-scale-1">Early Retirement</p></button>
+          </nav>
+      </div>
+  
+      <div class="main-content">
+          <div class="content-container">
+              <!-- Survivor Benefits Content -->
+              <div id="survivor-benefits" class="content-section">
+                  <h1 class="main-title">Tab 1</h1>
               </div>
-              <div class="cell medium-9">
-                <div class="tabs-content vertical" data-tabs-content="example-tabs">
-                  <div class="tabs-panel is-active" id="panel1v">
-                    <p>One</p>
-                    <p>Check me out! I'm a super cool Tab panel with text content!</p>
-                  </div>
-                  <div class="tabs-panel" id="panel2v">
-                    <p>Two</p>
-                    <img class="thumbnail" src="assets/img/generic/rectangle-7.jpg">
-                  </div>
-                  <div class="tabs-panel" id="panel3v">
-                    <p>Three</p>
-                    <p>Check me out! I'm a super cool Tab panel with text content!</p>
-                  </div>
-                  <div class="tabs-panel" id="panel4v">
-                    <p>Four</p>
-                    <img class="thumbnail" src="assets/img/generic/rectangle-2.jpg">
-                  </div>
-                  <div class="tabs-panel" id="panel5v">
-                    <p>Five</p>
-                    <p>Check me out! I'm a super cool Tab panel with text content!</p>
-                  </div>
-                  <div class="tabs-panel" id="panel6v">
-                    <p>Six</p>
-                    <img class="thumbnail" src="assets/img/generic/rectangle-8.jpg">
-                  </div>
-                </div>
+  
+              <!-- Report a Death Content -->
+              <div id="report-death" class="content-section hidden">
+                  <h1 class="main-title">Tab 2</h1>
               </div>
-            </div>
-        </div>
+  
+              <!-- New Hire Content -->
+              <div id="new-hire" class="content-section hidden">
+                  <h1 class="main-title">Tab 3</h1>
+              </div>
+  
+              <!-- Mid Career Content -->
+              <div id="mid-career" class="content-section hidden">
+                  <h1 class="main-title">Tab 4</h1>
+              </div>
+  
+              <!-- Early Retirement Content -->
+              <div id="early-retirement" class="content-section hidden">
+                  <h1 class="main-title">Tab 5</h1>
+              </div>
+          </div>
+      </div>
 
         
     </body>
