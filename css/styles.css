@@ -46,6 +46,22 @@ body {
     --lightest-red: #F3BABC;
 }
 
+/* FONT WEIGHTS --------------------------------------------------------*/
+.medium {
+    font-weight: 500;
+}
+
+.demi {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+
+
+/* FONT SIZES --------------------------------------------------------*/
 .extra-small {
     font-family: "greycliff-cf", sans-serif;
     font-weight: 400;
@@ -134,69 +150,9 @@ body {
     margin: 0px;
 }
 
-/* h1, h2, h3, h4, h5, p, label, a, .link {
-    margin: 0px;
-}
 
-h1 {
-    font-size: 60px;
-    font-weight: 700;
-}
 
-h2 {
-    font-size: 48px;
-    font-weight: 700;
-}
 
-h3 {
-    font-size: 32px;
-    font-weight: 700;
-    margin: 0px;
-}
-
-h4 {
-    font-size: 24px;
-    font-weight: 500;
-}
-
-h5 {
-    font-size: 20px;
-    font-weight: 500;
-}
-
-.navbar-item {
-    font-weight: 500;
-    font-size: 18px;
-}
-
-/* body large */
-.bodylarge {
-    font-weight: 500;
-    font-size: 16px;
-}
-
-a {
-    font-size: 16px;
-    font-weight: 400;
-}
-
-p {
-    /* font-weight: medium; */
-    font-size: 16px;
-    font-weight: 400;
-}
-
-label {
-    /* font-weight: bold; */
-    font-size: 12px;
-    font-weight: 300;
-}
-
-.link {
-    font-style: italic;
-    font-size: 14px;
-    color: var(--blue);
-}
 
 input {
     margin-top: 0.5rem;
