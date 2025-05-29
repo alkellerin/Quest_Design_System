@@ -10,9 +10,10 @@
   }
   
   .sidebar {
-    width: 20rem;
+    width: 484px;
     background-color: white;
     position: relative;
+    top: 2rem;
     height: 100%;
     overflow-y: auto;
     padding: 16px 0 0 ;
@@ -23,17 +24,13 @@
   .sidebar-header {
     padding: 16px;
     text-align: center;
-    border-bottom: 1px solid #e5e7eb;
+    margin-left: 12rem;
   }
   
-  .sidebar-header h2 {
-    font-size: 18px;
-    font-weight: 600;
-    color: #1f2937;
-  }
   
   .nav-menu {
     padding: 16px 0;
+
   }
   
   .nav-item {
@@ -48,6 +45,7 @@
     transition: all 0.2s ease;
     display: block;
     border-left: 3px solid transparent;
+    padding-left: 12rem;
   }
   
   .nav-item.main.active {
