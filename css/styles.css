@@ -12,33 +12,35 @@ body {
     --light-blue: #26339C;
     --lighter-blue: #3041C5;
     --lightest-blue: #7C87DF;
-    --darker-blue: #12184A;
-    --darkest-blue: #080B21;
+    --dark-blue: #12184A;
+    --darke-blue: #080B21;
 
     --yellow: #fab32f;
     --light-yellow: #FBC560;
     --lighter-yellow: #FCD791;
     --lightest-yellow: #FEE9C3;
-    --darker-yellow: #EF9D06;
-    --darkest-yellow: #BD7D05;
+    --dark-yellow: #EF9D06;
+    --darker-yellow: #BD7D05;
 
     --white: #FFFFFF;
     --lighter-gray: #F2F2F2;
     --light-gray: #BFBFBF;
     --gray: #8C8C8C;
-    --dark-gray: #595959;
-    --black: #262626; 
+    --dark-gray: #595959; 
+    --darker-gray: #262626;
+    --darkest-gray: #0D0D0D;
+    --black: #000000; 
 
     --green: #398434;
-    --darker-green: #295F25;
-    --darkest-green: #193B17;
+    --dark-green: #295F25;
+    --darker-green: #193B17;
     --light-green: #49A842;
-    --lightest-green: #64C05E;
+    --lighter-green: #64C05E;
     --lightest-green: #CEEBCC;
 
     --red: #BF2229;
-    --darker-red: #931A20;
-    --darkest-red: #681216;
+    --dark-red: #931A20;
+    --darker-red: #681216;
     --light-red: #DC383F;
     --lighter-red: #E36369;
     --lightest-red: #F3BABC;
