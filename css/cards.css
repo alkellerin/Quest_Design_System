@@ -1,7 +1,7 @@
 .cardArticle {
     width: 296px;
     height: 324px;
-    border: 2px solid var(--light-gray);
+    border: 2px solid var(--lighter-gray);
     border-radius: 8px;
     background-color: white;
 }
@@ -29,11 +29,10 @@
 .cardFaculty {
     width: 296px;
     height: 426px;
-    border: 2px solid var(--light-gray);
+    border: 2px solid var(--lighter-gray);
     border-radius: 8px;
     background-color: white;
 }
-
 .thumbnail_img2 {
     background-color: var(--blue);
     border-radius: 8px 8px 0px 0px;
