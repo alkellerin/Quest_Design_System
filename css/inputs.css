@@ -15,7 +15,7 @@ input::placeholder {
     width: 624px;
 }
 
-input::.button {
+input::button-primary {
     color: var(--light-gray);
 }
 
@@ -41,3 +41,12 @@ input::.button {
     .button-primary:disabled {
         background-color: var(--lightest-blue);
     }
+
+.radio-form {
+    font-family: "greycliff-cf";
+    font-size: 16px;
+    line-height: 1.1;
+    display: inline;
+    grid-template-columns: 1em auto;
+    gap: 0.5em;
+}

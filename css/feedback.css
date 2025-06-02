@@ -1,6 +1,7 @@
 .success-popup {
     width: 22.5rem;
     height:11.25rem;
+    border: 2px solid var(--light-gray);
     border-radius: 8px;
 }
 
@@ -8,7 +9,7 @@
     background-color: var(--lightest-green);
     color: var(--darker-green);
     display: inline;
-    padding: 16px;
+    /* padding: 16px; */
 }
 
 .ph-x {
@@ -23,11 +24,27 @@
     width: 22.5rem;
     height:11.25rem;
     border-radius: 8px;
+    border: 2px solid var(--light-gray);
+    border-radius: 8px;
 }
 
 .error-tab {
     background-color: var(--lighter-red);
     color: var(--darker-red);
     display: inline;
-    padding: 16px;
+    /* padding: 16px; */
+}
+
+.warning-popup {
+    width: 22.5rem;
+    height:11.25rem;
+    border: 2px solid var(--light-gray);
+    border-radius: 8px;
+}
+
+.warning-tab {
+    background-color: var(--lighter-yellow);
+    color: var(--darker-yellow);
+    display: inline;
+    /* padding: 16px; */
 }
