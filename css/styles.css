@@ -81,6 +81,13 @@ body {
     margin: 0px;
 }
 
+.link-action {
+    font-family: "greycliff-cf", sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    margin: 0px;
+}
+
 .body-base, .button-text {
     font-family: "greycliff-cf", sans-serif;
     font-style: normal;

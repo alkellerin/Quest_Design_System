@@ -1,0 +1,33 @@
+.success-popup {
+    width: 22.5rem;
+    height:11.25rem;
+    border-radius: 8px;
+}
+
+.success-tab {
+    background-color: var(--lightest-green);
+    color: var(--darker-green);
+    display: inline;
+    padding: 16px;
+}
+
+.ph-x {
+    font-size: 16px;
+}
+
+.popup-message {
+    padding: 16px;
+}
+
+.error-popup {
+    width: 22.5rem;
+    height:11.25rem;
+    border-radius: 8px;
+}
+
+.error-tab {
+    background-color: var(--lighter-red);
+    color: var(--darker-red);
+    display: inline;
+    padding: 16px;
+}
