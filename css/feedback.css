@@ -8,16 +8,20 @@
 .success-tab {
     background-color: var(--lightest-green);
     color: var(--darker-green);
-    display: inline;
-    /* padding: 16px; */
+    display: flex;
+    padding: 8px 16px;
+    border-radius: 8px 8px 0px 0px;
 }
 
 .ph-x {
-    font-size: 16px;
+    font-size: 24px;
+    margin: auto;
+    float: right;
 }
 
 .popup-message {
     padding: 16px;
+    background-color: var(--white);
 }
 
 .error-popup {
@@ -31,8 +35,10 @@
 .error-tab {
     background-color: var(--lighter-red);
     color: var(--darker-red);
-    display: inline;
-    /* padding: 16px; */
+    display: flex;
+    margin: auto;
+    padding: 8px 16px;
+    border-radius: 8px 8px 0px 0px;
 }
 
 .warning-popup {
@@ -45,6 +51,24 @@
 .warning-tab {
     background-color: var(--lighter-yellow);
     color: var(--darker-yellow);
-    display: inline;
-    /* padding: 16px; */
+    display: flex;
+    margin: auto;
+    padding: 8px 16px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.success-field {
+    padding: 16px;
+    border: 2px solid var(--green);
+    border-radius: 8px;
+    background-color: white;
+    width: 624px;
+}
+
+.error-field {
+    padding: 16px;
+    border: 2px solid var(--red);
+    border-radius: 8px;
+    background-color: white;
+    width: 624px;
 }
