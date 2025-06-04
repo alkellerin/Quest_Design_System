@@ -9,10 +9,13 @@
         <link rel="stylesheet" href="https://use.typekit.net/hbi2boz.css">
         <link rel="stylesheet" href="../css/styles.css">
         <link rel="stylesheet" href="../css/inputs.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"/>
         <script src="https://unpkg.com/htmlincludejs"></script>
     </head>
 
     <body>
+        <!-- TEXT FORM -->
         <div class="input-div">
             <form action="" method="post">
                 <label for="">Label</label> </br>
@@ -21,6 +24,7 @@
             </form>
         </div>
 
+        <!-- RADIO -->
         <div class="radio-form">
             <label class="form-control">
                 <input type="radio" name="radio" />
@@ -32,6 +36,18 @@
             Radio - checked
             </label>
         </div>
+
+        <!-- DROPDOWN -->
+        <div class="dropdown-menu">
+            <button onclick="myFunction()" class="dropbtn"><p class="body-base">Dropdown <i class="ph ph-caret-down"></i></p></button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+        </div>
     
+        <script src="../js/inputs.js" async defer></script>
+
     </body>
 </html>

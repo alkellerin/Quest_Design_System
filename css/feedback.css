@@ -1,6 +1,12 @@
+.feedback-popups {
+    display: inline-flex;
+    padding: 16px;
+    gap: 16px;
+}
+
 .success-popup {
     width: 22.5rem;
-    height:11.25rem;
+    /* height:11.25rem; */
     border: 2px solid var(--light-gray);
     border-radius: 8px;
 }
@@ -13,20 +19,22 @@
     border-radius: 8px 8px 0px 0px;
 }
 
-.ph-x {
+.exit-popup-icon {
     font-size: 24px;
     margin: auto;
-    float: right;
+    padding-left: 64px;
+    right: 0px;
 }
 
 .popup-message {
     padding: 16px;
     background-color: var(--white);
+    border-radius: 8px;
 }
 
 .error-popup {
     width: 22.5rem;
-    height:11.25rem;
+    /* height:11.25rem; */
     border-radius: 8px;
     border: 2px solid var(--light-gray);
     border-radius: 8px;
@@ -43,7 +51,7 @@
 
 .warning-popup {
     width: 22.5rem;
-    height:11.25rem;
+    /* height:11.25rem; */
     border: 2px solid var(--light-gray);
     border-radius: 8px;
 }

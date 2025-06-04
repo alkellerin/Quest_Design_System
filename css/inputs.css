@@ -50,3 +50,60 @@ input::button-primary {
     grid-template-columns: 1em auto;
     gap: 0.5em;
 }
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: var(--white);
+    border: 2px solid var(--light-gray);
+    border-radius: 8px;
+    color: var(--black);
+    padding: 16px;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+    width: 296px;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: var(--white);
+    border-radius: 8px;
+
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--white);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 16px;
+    width: 296px;
+    border-radius: 8px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #CED2F3;
+    font-style: bold;
+}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}

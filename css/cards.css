@@ -54,11 +54,11 @@
     gap: 24px;
 }
 
-.ph-briefcase {
+.employer-card-icon {
     font-size: 48px;
 }
 
-.ph-user {
+.member-card-icon {
     font-size: 48px;
 }
 
@@ -85,7 +85,8 @@
 }
 
 .employersCard:hover {
-    filter: drop-shadow(4px 8px 10px #8C8C8C);
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 }
 
 .row {
