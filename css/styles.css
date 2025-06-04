@@ -8,6 +8,10 @@ body {
 }
 
 :root {
+
+    --background-color1: #FFFFFF;
+    --background-color2: #F4F5F9;
+
     --blue: #1c2674;
     --light-blue: #26339C;
     --lighter-blue: #3041C5;

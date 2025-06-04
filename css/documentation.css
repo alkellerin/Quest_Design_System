@@ -1,6 +1,10 @@
 .page-content {
     padding-top: 2rem;
 }
+
+body {
+    background-color: var(--background-color1);
+}
 .summary {
     padding: 2rem 8.5rem;
 }
