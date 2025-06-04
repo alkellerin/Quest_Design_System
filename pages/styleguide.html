@@ -17,43 +17,45 @@
     <body>
         <include src="../pages/nav.html"></include>
 
-        
-      <div class="sidebar">
-        <div class="sidebar-header">
-          <p class="subtitle-scale-2">Table of Contents</p>
-        </div>
-        <nav class="nav-menu">
-            <button class="nav-item regular active" data-tab="style-color"><p class="body-scale-1">Color</p></button>
-            <button class="nav-item regular" data-tab="style-typography"><p class="body-scale-1">Typography</p></button>
-                <!-- <button class="nav-item sub" data-tab="report-death-sub1"><p class="body-scale-1">Report a Death</p></button>
-                <button class="nav-item sub" data-tab="report-death-sub2"><p class="body-scale-1">Report a Death</p></button> -->
-            <button class="nav-item regular" data-tab="style-spacing"><p class="body-scale-1">Spacing & Sizing</p></button>
-            </nav>
-      </div>
-  
-      <div class="main-content">
-          <div class="content-container">
-            <!-- Color Content -->
-            <div id="style-color" class="content-section">
-                <h1 class="main-title">Color</h1>
-                <include src="../pages/color.html"></include>
+          <div class="sidebar">
+            <div class="sidebar-header">
+              <p class="subtitle-scale-2">Table of Contents</p>
             </div>
-
-            <!-- Typography Content -->
-            <div id="style-typography" class="content-section hidden">
-              <h1 class="main-title">Typography</h1>
-              <include src="../pages/typography.html"></include>
-            </div>
-
-            <!-- Spacing Content -->
-            <div id="style-spacing" class="content-section hidden">
-              <h1 class="main-title">Spacing & Sizing</h1>
-              <include src="../pages/spacing.html"></include>
-            </div>
+            <nav class="nav-menu">
+                <button class="nav-item regular active" data-tab="style-color"><p class="body-scale-1">Color</p></button>
+                <button class="nav-item regular" data-tab="style-typography"><p class="body-scale-1">Typography</p></button>
+                    <!-- <button class="nav-item sub" data-tab="report-death-sub1"><p class="body-scale-1">Report a Death</p></button>
+                    <button class="nav-item sub" data-tab="report-death-sub2"><p class="body-scale-1">Report a Death</p></button> -->
+                <button class="nav-item regular" data-tab="style-spacing"><p class="body-scale-1">Spacing & Sizing</p></button>
+                </nav>
           </div>
-     
-      </div>
+  
+          <div class="page-content">
+            
+            <div class="main-content">
+              <div class="content-container">
+                <!-- Color Content -->
+                <div id="style-color" class="content-section">
+                    <h1 class="main-title">Color</h1>
+                    <include src="../pages/color.html"></include>
+                </div>
 
+                <!-- Typography Content -->
+                <div id="style-typography" class="content-section hidden">
+                  <h1 class="main-title">Typography</h1>
+                  <include src="../pages/typography.html"></include>
+                </div>
+
+                <!-- Spacing Content -->
+                <div id="style-spacing" class="content-section hidden">
+                  <h1 class="main-title">Spacing & Sizing</h1>
+                  <include src="../pages/spacing.html"></include>
+                </div>
+              </div>
+            </div>
+
+        </div>
+      
       <script src="../js/styleguide.js" async defer></script>
     </body>
 </html>

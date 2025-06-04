@@ -1,4 +1,3 @@
-// // FAQ Animation
 // const faqQuestions = document.querySelectorAll(".faq-question");
 
 // faqQuestions.forEach((question) => {
@@ -23,34 +22,43 @@
 // });
 
 document.addEventListener('DOMContentLoaded', function() {
-    const faqQuestions = document.querySelectorAll(".faq-question");
+    console.log('FAQ script loaded');
     
-    faqQuestions.forEach((question) => {
-        question.addEventListener("click", () => {
-            // Close all other FAQ items
+    const faqQuestions = document.querySelectorAll(".faq-question");
+    console.log('Found', faqQuestions.length, 'FAQ questions');
+    
+    faqQuestions.forEach((question, index) => {
+        question.addEventListener("click", function() {
+            console.log('Clicked question', index);
+            
+            // Close all other FAQs
             faqQuestions.forEach((item) => {
                 if (item !== question) {
                     item.classList.remove("active");
                     const otherAnswer = item.nextElementSibling;
-                    otherAnswer.style.maxHeight = null;
-                    otherAnswer.classList.remove("active");
+                    if (otherAnswer) {
+                        otherAnswer.style.maxHeight = null;
+                    }
                 }
             });
             
-            // Toggle current FAQ item
+            // Toggle current FAQ
             question.classList.toggle("active");
             const answer = question.nextElementSibling;
             
-            if (answer.style.maxHeight) {
-                answer.style.maxHeight = null;
-                answer.classList.remove("active");
-            } else {
-                answer.style.maxHeight = answer.scrollHeight + "px";
-                answer.classList.add("active");
+            if (answer) {
+                if (answer.style.maxHeight && answer.style.maxHeight !== "0px") {
+                    answer.style.maxHeight = null;
+                    console.log('Closing answer');
+                } else {
+                    answer.style.maxHeight = answer.scrollHeight + "px";
+                    console.log('Opening answer, height:', answer.scrollHeight);
+                }
             }
         });
     });
 });
+
 
 // SIDE NAV
 var navItems = document.querySelectorAll('.nav-item');

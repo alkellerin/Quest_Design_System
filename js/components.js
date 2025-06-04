@@ -78,3 +78,41 @@ for (var k = 0; k < navItems.length; k++) {
 
 // Initialize with first tab active
 showContent('components-buttons');
+
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('FAQ script loaded');
+    
+    const faqQuestions = document.querySelectorAll(".faq-question");
+    console.log('Found', faqQuestions.length, 'FAQ questions');
+    
+    faqQuestions.forEach((question, index) => {
+        question.addEventListener("click", function() {
+            console.log('Clicked question', index);
+            
+            // Close all other FAQs
+            faqQuestions.forEach((item) => {
+                if (item !== question) {
+                    item.classList.remove("active");
+                    const otherAnswer = item.nextElementSibling;
+                    if (otherAnswer) {
+                        otherAnswer.style.maxHeight = null;
+                    }
+                }
+            });
+            
+            // Toggle current FAQ
+            question.classList.toggle("active");
+            const answer = question.nextElementSibling;
+            
+            if (answer) {
+                if (answer.style.maxHeight && answer.style.maxHeight !== "0px") {
+                    answer.style.maxHeight = null;
+                    console.log('Closing answer');
+                } else {
+                    answer.style.maxHeight = answer.scrollHeight + "px";
+                    console.log('Opening answer, height:', answer.scrollHeight);
+                }
+            }
+        });
+    });
+});

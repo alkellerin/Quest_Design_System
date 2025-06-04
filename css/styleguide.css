@@ -2,6 +2,10 @@
   font-family: "greycliff-cf","Lexend Deca", sans-serif !important;
 }
 
+.page-content {
+  padding-top: 4rem;
+}
+
 body {
   font-family: "greycliff-cf","Lexend Deca", sans-serif !important;
   background-color: white;

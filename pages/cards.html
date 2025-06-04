@@ -17,44 +17,6 @@
     </head>
 
     <body>
-
-    <div class="faq-container">
-      <h2>Frequently Asked Questions</h2>
-
-      <div class="faq-items">
-
-      </div>
-    </div>
-
-        <div class="choices">
-            <div class="membersCard">
-                <div class="cardInfo">
-                    <i class="ph ph-briefcase"></i>
-                    <p class="subtitle bold">Members</p>
-                    <p>
-                        Get up to date information on your INPRS plan.
-                    </p>
-                </div>
-                <div class="readMore">
-                    <p class="link-action">Go to plan info <i class="ph ph-caret-double-right"></i></p>
-                </div>
-            </div>
-
-            <div class="employersCard">
-                <div class="cardInfo">
-                    <i class="ph ph-user"></i>
-                    <p class="subtitle bold">Employers</p>
-                    <p>
-                        INPRS participating employers resource guides.
-                    </p>
-                </div>
-                <div class="readMore">
-                    <p class="link-action">Go to employer <i class="ph ph-caret-double-right"></i></p>
-                </div>
-            </div>
-        </div>
-    </div>
-
       <div class="cardArticle">
           <div class="thumbnail_img"></div>
 
@@ -78,59 +40,7 @@
             <p class="subtitle demi">Lexi Keller</p>
             <p class="body-base">Description Description La la la la lalaa woohoo style guide yay</p>
         </div>
-      </div>
-
-      <div class="faq-container row">
-          <div class="faq-title">
-            <h3><b>Frequently Asked Questions</b></h3>
-          </div>
-          <div class="faq-items">
-            <div class="faq-item">
-              <h6 class="faq-question">
-                <b>Question</b>
-                <i class="ph ph-caret-down"></i>
-              </h6>
-              <div class="faq-answer">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                  dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                </p>
-              </div>
-            </div>
-        
-            <div class="faq-item">
-              <h6 class="faq-question">
-                <b>Question</b>
-                <i class="ph ph-caret-down"></i>
-              </h6>
-              <div class="faq-answer">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                  dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                </p>
-              </div>
-            </div>
-        
-            <div class="faq-item">
-              <h6 class="faq-question">
-                <b>Question</b>
-                <i class="ph ph-caret-down"></i>
-              </h6>
-              <div class="faq-answer">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                  dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                </p>
-              </div>
-            </div>
-          </div>
-      </div>  
+      </div> 
       
       <div class="choices">
         <div class="membersCard">
@@ -162,43 +72,18 @@
         </div>
       </div>
 
-    <div class="file row">
-      <div class="pdf-thumbnail column"></div>
-      <div class="pdf-info column">
-        <h4>2023 Annual Report</h4>
-        <label><span style="color:var(--red)"><i class="ph ph-download-simple"></i> Download</span></label>
+      <div class="file row">
+        <div class="pdf-thumbnail column"></div>
+        <div class="pdf-info column">
+          <h4>2023 Annual Report</h4>
+          <label><span style="color:var(--red)"><i class="ph ph-download-simple"></i> Download</span></label>
+        </div>
       </div>
-    </div>
 
-        <!-- <script src="../js/scripts.js" async defer></script> -->
-         <script>document.addEventListener('DOMContentLoaded', function() {
-          const faqQuestions = document.querySelectorAll(".faq-question");
-          
-          faqQuestions.forEach((question) => {
-              question.addEventListener("click", () => {
-                  // Close all other FAQ items
-                  faqQuestions.forEach((item) => {
-                      if (item !== question) {
-                          item.classList.remove("active");
-                          const otherAnswer = item.nextElementSibling;
-                          otherAnswer.style.maxHeight = null;
-                          otherAnswer.classList.remove("active");
-                      }
-                  });
-                  
-                  // Toggle current FAQ item
-                  question.classList.toggle("active");
-                  const answer = question.nextElementSibling;
-                  
-                  if (answer.style.maxHeight) {
-                      answer.style.maxHeight = null;
-                      answer.classList.remove("active");
-                  } else {
-                      answer.style.maxHeight = answer.scrollHeight + "px";
-                      answer.classList.add("active");
-                  }
-              });
-          });
-      });</script>
+      
+
+    <script src="../js/scripts.js" async defer></script>
+     
+        
     </body>
 </html>

@@ -1,3 +1,6 @@
+.page-content {
+    padding-top: 2rem;
+}
 .summary {
     padding: 2rem 8.5rem;
 }
@@ -6,3 +9,78 @@
     padding: 2rem 8.5rem;
 }
 
+/* FAQ SECTION ------------------------------------------- */
+.faq-container {
+    max-width: 1153px;
+    margin: 50px auto;
+    padding: 20px;
+    align: center;
+}
+  
+  
+.faq-title {
+    margin: auto;
+    margin-bottom: 40px;
+    color: black;
+}
+  
+.faq-items {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 20px 0 20px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #ecf0f1;
+    overflow: hidden;
+}
+  
+.faq-question {
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.faq-question:hover {
+    background-color: #ecf0f1;
+}
+
+.faq-question.active {
+    background-color: var(--blue);
+    color: white;
+}
+
+.faq-question i {
+    transition: transform 0.3s ease;
+    color: #666;
+}
+
+.faq-question.active i {
+    color: white;
+    transform: rotate(180deg);
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background-color: white;
+}
+
+.faq-answer p {
+    padding: 20px;
+    color: black;
+    margin: 0;
+    line-height: 1.6;
+}
