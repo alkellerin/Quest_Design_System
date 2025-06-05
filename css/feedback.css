@@ -80,3 +80,18 @@
     background-color: white;
     width: 624px;
 }
+
+.warning-alert {
+    display: inline-flex;
+    gap: 8px;
+    align-items: center;
+    background-color: var(--yellow);
+    color: var(--blue);
+    padding: 16px;
+    border-radius: 8px;
+    width: 67.125rem;
+}
+
+.icon24 {
+    font-size: 24px;
+}
