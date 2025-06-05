@@ -5,20 +5,22 @@ label, h1, p {
 
 
 .emblem {
-    width: 40%;
-    padding: 32px 0px 0px 20px;
-    right: 10px;
+    /* padding: 32px 0px 0px 20px; */
+    max-width: 100%;
+    height: auto;
 }
 
 .banner {
     background-color: var(--blue);
     max-width: none;
     padding: 16px;
+    width: 100%;
 }
 
 .info {
     margin: auto;
-    padding: 32px;
+    padding: 32px 32px 32px 32px;
+    max-width: 762px;
 }
 
 .right {
@@ -47,8 +49,13 @@ label, h1, p {
 }
 
 .column.right {
-    flex: 1; 
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; /* Changed from 'right' to 'center' */
+    padding: 0;
 }
+
 
 .tab-bar {
     background-color: var(--yellow);
@@ -140,3 +147,32 @@ h6:hover {
 .ph-magnifying-glass {
     font-size: 24px;
 }
+
+.body-scale-1 {
+    color: var(--blue)
+}
+
+.button-primary-lg{
+    padding: 16px 16px;
+    height: 56px;
+    font-size: 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--blue);
+    align-items: center;
+}
+
+    .button-primary-lg:hover {
+        background-color: var(--darker-blue);
+        color: var(--white);
+        font-weight: 700;
+    }
+
+    .button-primary-med:active {
+        font-weight: 700;
+    }
+
+    .button-primary-med:disabled {
+        background-color: var(--lightest-blue);
+    }
