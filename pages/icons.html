@@ -17,82 +17,197 @@
     <body>
 
         <p class="body-base">Quest Design System uses Phosphor iconography styles. Normally, icons will be under the css style "ph". When hovered, the css style should be "ph-fill" </p>
-        <a class="button-primary-sm" href="https://phosphoricons.com/"><p class="body-base">See All Phosphor Icons</p></a>
+        <a class="button-primary-sm" href="https://phosphoricons.com/">See All Phosphor Icons</a>
 
-        <table>
-            <tr>
-                <th>Icon</th>
-                <th>Where it is used</th>
-            </tr>
-            <tr>
-                <td><i class="ph ph-caret-up"></i></td>
-                <td>Drop downs</td>
-            </tr>
-            <tr>
-                <td><i class="ph ph-caret-down"></i></td>
-                <td>Drop downs</td>
-            </tr>
-            <tr>
-                <td><i class="ph ph-magnifying-glass"></i></td>
-                <td>Search</td>
-            </tr>
-            <tr>
-                <td><i class="ph ph-plus"></i></td>
-                <td>Add</td>
-            </tr>
-            <tr>
-                <td><i class="ph ph-x"></i></td>
-                <td>Exit modal</td>
-            </tr>
-            <tr>
-                <td><i class="ph ph-info"></i></td>
-                <td>Information</td>
-            </tr>
-            <tr>
-                <td><i class="ph ph-download-simple"></i></td>
-                <td>Download files</td>
-            </tr>
-            <tr>
-                <td><i class="ph ph-user"></i></td>
-                <td>Account</td>
-            </tr>
-            <tr>
-                <td><i class="ph ph-gear"></i></td>
-                <td>Settings</td>
-            </tr>
-            <tr>
-                <td><i class="ph ph-file-pdf"></i></td>
-                <td>PDFs</td>
-            </tr>
-            <tr>
-                <td><i class="ph ph-sign-out"></i></td>
-                <td>Sign out</td>
-            </tr>
-            <tr>
-                <td><i class="ph ph-headset"></i></td>
-                <td>Chatbot</td>
-            </tr>
-            <tr>
-                <td><i class="ph ph-arrow-circle-right"></i></td>
-                <td>See more</td>
-            </tr>
-            <tr>
-                <td><i class="ph ph-lock-key"></i></td>
-                <td>Locked</td>
-            </tr>
-            <tr>
-                <td><i class="ph ph-warning"></i></td>
-                <td>Warning</td>
-            </tr>
-            <tr>
-                <td><i class="ph ph-house"></i></td>
-                <td>Home page</td>
-            </tr>
-            <tr>
-                <td><i class="ph ph-list"></i></td>
-                <td>Mobile nav</td>
-            </tr>
-            
-        </table>
+        <div class="guide-info">
+            <p class="subtitle">Icon Sizing</p>
+            <p class="body-base">
+                Icons should be increased in 4px/.25rem ranging from 12px to 24px. To change the original size of an icon, use the icon's style class and add the size in px. For example, 
+                if I want to change the size of <p class="code-snippet-bold">ph-arrow-circle-right</p> <i class="ph ph-arrow-circle-right"></i>, I would add another style class called 
+                <p class="code-snippet-bold">icon24</p><i class="ph ph-arrow-circle-right icon24"></i> at the end. In total the code snippet should look like <p class="code-snippet-bold">ph ph-arrow-circle-right icon24</p> 
+            </p>
+        </div>
+
+        <div class="flex-grid-thirds">
+            <div class="col">
+                <div class="icon-box">
+                    <div class="icon-example">
+                        <i class="ph ph-caret-up icon24"></i>
+                    </div>
+                    <div class="icon-info">
+                        <p class="code-snippet-bold">ph ph-caret-up</p>
+                        <p class="body-base">Drop downs</p>
+                    </div>
+                </div>
+
+                <div class="icon-box">
+                    <div class="icon-example">
+                        <i class="ph ph-plus icon24"></i>
+                    </div>
+                    <div class="icon-info">
+                        <p class="code-snippet-bold">ph ph-plus</p>
+                        <p class="body-base">Add</p>
+                    </div>
+                </div>
+
+                <div class="icon-box">
+                    <div class="icon-example">
+                        <i class="ph ph-gear icon24"></i>
+                    </div>
+                    <div class="icon-info">
+                        <p class="code-snippet-bold">ph ph-gear</p>
+                        <p class="body-base">Settings</p>
+                    </div>
+                </div>
+
+                <div class="icon-box">
+                    <div class="icon-example">
+                        <i class="ph ph-file-pdf icon24"></i>
+                    </div>
+                    <div class="icon-info">
+                        <p class="code-snippet-bold">ph ph-file-pdf</p>
+                        <p class="body-base">PDFs</p>
+                    </div>
+                </div>
+
+                <div class="icon-box">
+                    <div class="icon-example">
+                        <i class="ph ph-lock-key icon24"></i>
+                    </div>
+                    <div class="icon-info">
+                        <p class="code-snippet-bold">ph ph-lock-key</p>
+                        <p class="body-base">Locked</p>
+                    </div>
+                </div>
+
+                <div class="icon-box">
+                    <div class="icon-example">
+                        <i class="ph ph-house icon24"></i>
+                    </div>
+                    <div class="icon-info">
+                        <p class="code-snippet-bold">ph ph-house</p>
+                        <p class="body-base">Home Page</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col">
+                <div class="icon-box">
+                    <div class="icon-example">
+                        <i class="ph ph-caret-down icon24"></i>
+                    </div>
+                    <div class="icon-info">
+                        <p class="code-snippet-bold">ph ph-caret-down</p>
+                        <p class="body-base">Drop downs</p>
+                    </div>
+                </div>
+
+                <div class="icon-box">
+                    <div class="icon-example">
+                        <i class="ph ph-x icon24"></i>
+                    </div>
+                    <div class="icon-info">
+                        <p class="code-snippet-bold">ph ph-x</p>
+                        <p class="body-base">Exit modal</p>
+                    </div>
+                </div>
+
+                <div class="icon-box">
+                    <div class="icon-example">
+                        <i class="ph ph-download-simple icon24"></i>
+                    </div>
+                    <div class="icon-info">
+                        <p class="code-snippet-bold">ph ph-download-simple</p>
+                        <p class="body-base">Download files</p>
+                    </div>
+                </div>
+                
+                <div class="icon-box">
+                    <div class="icon-example">
+                        <i class="ph ph-sign-out icon24"></i>
+                    </div>
+                    <div class="icon-info">
+                        <p class="code-snippet-bold">ph ph-sign-out</p>
+                        <p class="body-base">Sign out</p>
+                    </div>
+                </div>
+
+                <div class="icon-box">
+                    <div class="icon-example">
+                        <i class="ph ph-arrow-circle-right icon24"></i>
+                    </div>
+                    <div class="icon-info">
+                        <p class="code-snippet-bold">ph ph-arrow-circle-right</p>
+                        <p class="body-base">See more</p>
+                    </div>
+                </div>
+
+                <div class="icon-box">
+                    <div class="icon-example">
+                        <i class="ph ph-list icon24"></i>
+                    </div>
+                    <div class="icon-info">
+                        <p class="code-snippet-bold">ph ph-list</p>
+                        <p class="body-base">Mobile nav</p>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="col">
+                <div class="icon-box">
+                    <div class="icon-example">
+                        <i class="ph ph-magnifying-glass icon24"></i>
+                    </div>
+                    <div class="icon-info">
+                        <p class="code-snippet-bold">ph ph-magnifying-glass</p>
+                        <p class="body-base">Search</p>
+                    </div>
+                </div>
+
+                <div class="icon-box">
+                    <div class="icon-example">
+                        <i class="ph ph-info icon24"></i>
+                    </div>
+                    <div class="icon-info">
+                        <p class="code-snippet-bold">ph ph-info</p>
+                        <p class="body-base">Information</p>
+                    </div>
+                </div>
+
+                <div class="icon-box">
+                    <div class="icon-example">
+                        <i class="ph ph-user icon24"></i>
+                    </div>
+                    <div class="icon-info">
+                        <p class="code-snippet-bold">ph ph-user</p>
+                        <p class="body-base">Account</p>
+                    </div>
+                </div>
+
+                <div class="icon-box">
+                    <div class="icon-example">
+                        <i class="ph ph-headset icon24"></i>
+                    </div>
+                    <div class="icon-info">
+                        <p class="code-snippet-bold">ph ph-headset</p>
+                        <p class="body-base">Chatbot</p>
+                    </div>
+                </div>
+
+                <div class="icon-box">
+                    <div class="icon-example">
+                        <i class="ph ph-warning icon24"></i>
+                    </div>
+                    <div class="icon-info">
+                        <p class="code-snippet-bold">ph ph-warning</p>
+                        <p class="body-base">Caution</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
     </body>
 </html>

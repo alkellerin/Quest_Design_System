@@ -69,10 +69,12 @@
     border-radius: 8px;
     color: var(--blue);
     background-color: var(--yellow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .membersCard:hover {
-    filter: drop-shadow(4px 8px 10px #8C8C8C);
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 }
 
 .employersCard {
@@ -82,6 +84,7 @@
     border-radius: 8px;
     color: white;
     background-color: #398434;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .employersCard:hover {

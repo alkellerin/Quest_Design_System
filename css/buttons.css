@@ -151,6 +151,7 @@ th {
     text-decoration: none;
     color: var(--white);
     background-color: var(--blue);
+    margin: 8px;
 }
 
     .button-primary-sm:hover {
