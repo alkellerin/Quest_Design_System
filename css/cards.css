@@ -10,11 +10,16 @@
     /* filter: drop-shadow(4px 8px 10px #8C8C8C); */
 }
 
-.thumbnail_img {
+.thumbnail_cover {
     background-color: var(--blue);
     border-radius: 8px 8px 0px 0px;
     height: 158px;
     border: none;
+}
+
+.thumbnail_img {
+    float: right;
+    width: 50%;
 }
 
 .cardInfo {
