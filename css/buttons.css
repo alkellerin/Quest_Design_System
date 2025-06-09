@@ -31,6 +31,7 @@ th {
     text-decoration: none;
     color: var(--white);
     background-color: var(--blue);
+    transition: 0.3s;
 }
 
     .button-primary-med:hover {
@@ -55,6 +56,7 @@ th {
     text-decoration: none;
     color: var(--blue);
     background-color: var(--yellow);
+    transition: 0.3s;
 }
 
     .button-secondary-med:hover {
@@ -80,6 +82,7 @@ th {
     color: var(--blue);
     background-color: var(--white);
     border: 2px solid var(--blue);
+    transition: 0.3s;
 }
 
     .button-outline-primary-med:hover {
@@ -106,6 +109,7 @@ th {
     color: var(--yellow);
     background-color: var(--white);
     border: 2px solid var(--yellow);
+    transition: 0.3s;
 }
 
     .button-outline-secondary-med:hover {
@@ -131,6 +135,7 @@ th {
     color: var(--blue);
     background-color: none;
     border-bottom: 2px solid var(--blue);
+    transition: 0.3s;
 }
 
     .button-link-med:hover {
@@ -152,6 +157,7 @@ th {
     color: var(--white);
     background-color: var(--blue);
     margin: 8px;
+    transition: 0.3s;
 }
 
     .button-primary-sm:hover {
@@ -176,6 +182,7 @@ th {
     text-decoration: none;
     color: var(--blue);
     background-color: var(--yellow);
+    transition: 0.3s;
 }
 
     .button-secondary-sm:hover {
@@ -201,6 +208,7 @@ th {
     color: var(--blue);
     background-color: var(--white);
     border: 2px solid var(--blue);
+    transition: 0.3s;
 }
 
     .button-outline-primary-sm:hover {
@@ -227,6 +235,7 @@ th {
     color: var(--yellow);
     background-color: var(--white);
     border: 2px solid var(--yellow);
+    transition: 0.3s;
 }
 
     .button-outline-secondary-sm:hover {
@@ -252,6 +261,7 @@ th {
     color: var(--blue);
     background-color: none;
     border-bottom: 2px solid var(--blue);
+    transition: 0.3s;
 }
 
     .button-link-sm:hover {
@@ -272,6 +282,7 @@ th {
     text-decoration: none;
     color: var(--white);
     background-color: var(--blue);
+    transition: 0.3s;
 }
 
     .button-primary-lg:hover {
@@ -296,6 +307,7 @@ th {
     text-decoration: none;
     color: var(--blue);
     background-color: var(--yellow);
+    transition: 0.3s;
 }
 
     .button-secondary-lg:hover {
@@ -321,6 +333,7 @@ th {
     color: var(--blue);
     background-color: var(--white);
     border: 2px solid var(--blue);
+    transition: 0.3s;
 }
 
     .button-outline-primary-lg:hover {
@@ -347,6 +360,7 @@ th {
     color: var(--yellow);
     background-color: var(--white);
     border: 2px solid var(--yellow);
+    transition: 0.3s;
 }
 
     .button-outline-secondary-lg:hover {
@@ -372,6 +386,7 @@ th {
     color: var(--blue);
     background-color: none;
     border-bottom: 2px solid var(--blue);
+    transition: 0.3s;
 }
 
     .button-link-lg:hover {

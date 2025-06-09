@@ -136,4 +136,18 @@ table {
     padding: 16px;
   }
 
+  @media (max-width: 1440px) {
+    .sidebar {
+      width: 484px;
+    }
 
+    .sidebar-header {
+      padding: 16px 4px 16px 16px;
+      margin-left: 1rem;
+    }
+
+    .nav-item {
+      padding-left: 3rem;
+    }
+  }
+  
